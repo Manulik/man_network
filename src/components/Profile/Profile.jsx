@@ -3,15 +3,15 @@ import * as S from './profile.styled';
 
 const Content = () => {
     return (
-        <S.Content>
-            <div>
-                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt="main img" />
-            </div>
+        <S.Profile>
+            <S.BlockImg>
+                <img src="https://3.bp.blogspot.com/-vxsAhZm7sOU/T_7yITJsneI/AAAAAAAAAFE/r1B2waibTsk/s1600/HDR+WALLPAPERS+%E2%84%9687+(22).jpg" alt="main img" />
+            </S.BlockImg>
 
-            <div>
+            <S.ProfileBlock>
                 <img src="https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg" alt="avatar" />
-                Discription
-            </div>
+                Discription and information about user.
+            </S.ProfileBlock>
             <div>
                 My posts
                 <div>
@@ -19,7 +19,7 @@ const Content = () => {
                 </div>
                 <div>Posts</div>
             </div>
-        </S.Content>
+        </S.Profile>
     );
 }
 
