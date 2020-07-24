@@ -2,7 +2,8 @@ import React from 'react';
 import * as S from  './app.styled';
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
-import Content from './components/Profile/Profile';
+import Profile from './components/Profile/Profile';
+import Dialogs from './components/Dialogs/Dialogs';
 
 const App = () =>  {
   return (
@@ -11,7 +12,10 @@ const App = () =>  {
 
       <Navigation />
 
-    <Content />
+      <S.WrapperContent>
+        <Dialogs />
+        {/* <Profile /> */}
+      </S.WrapperContent>
     </S.AppWrapper>
   );
 }

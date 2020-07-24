@@ -11,3 +11,8 @@ export const AppWrapper = styled.div `
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
 `;
+
+export const WrapperContent = styled.div `
+    grid-area: content;
+    background-color: lightgreen;
+`;
