@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const AppWrapper = styled.div `
     margin: 0 auto;
     display: grid;
-    width: 1250px;
+    max-width: 1250px;
     grid-template-areas:
     "header header"
     "nav content";
